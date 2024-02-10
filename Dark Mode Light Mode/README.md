@@ -13,11 +13,11 @@ To switch between light and dark modes, click on the respective icons:
 
 ### Light Mode
 
-![Light Mode](light_mode.png)
+![Light Mode](demo/light_mode.jpg)
 
 ### Dark Mode
 
-![Dark Mode](dark_mode.png)
+![Dark Mode](demo/dark_mode.jpg)
 
 ## Usage
 
