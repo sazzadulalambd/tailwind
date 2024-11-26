@@ -56,3 +56,34 @@ moonIcon.addEventListener('click', () => {
 //   localStorage.theme = 'light';
 //   location.reload();
 // });
+
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     const defaultThemeMode = 'dark'; // light|dark|system
+    //     let themeMode;
+
+    //     // Function to apply the theme
+    //     function applyTheme(mode) {
+    //         document.documentElement.classList.remove('light', 'dark');
+    //         document.documentElement.classList.add(mode);
+    //         localStorage.setItem('theme', mode);
+    //     }
+
+    //     // Determine initial theme
+    //     if (document.documentElement) {
+    //         if (localStorage.getItem('theme')) {
+    //             themeMode = localStorage.getItem('theme');
+    //         } else if (document.documentElement.hasAttribute('data-theme-mode')) {
+    //             themeMode = document.documentElement.getAttribute('data-theme-mode');
+    //         } else {
+    //             themeMode = defaultThemeMode;
+    //         }
+
+    //         applyTheme(themeMode);
+    //     }
+
+    //     // Toggle theme on button click
+    //     document.getElementById('theme-toggle').addEventListener('click', function() {
+    //         themeMode = (themeMode === 'dark') ? 'light' : 'dark';
+    //         applyTheme(themeMode);
+    //     });
+    // });
